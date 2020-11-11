@@ -24,3 +24,14 @@ $router->post('books', 'Controller@store');
 $router->put('books/{id}', 'Controller@update');
 
 $router->delete('books/{id}', 'Controller@destroy');
+
+
+$router->get('authors','AuthorsController@index');
+
+$router->get('authors/{id}','AuthorsController@getid');
+
+$router->post('authors', 'AuthorsController@store');
+
+$router->put('authors/{id}','AuthorsController@update');
+
+$router->delete('authors/{id}','AuthorsController@destroy');

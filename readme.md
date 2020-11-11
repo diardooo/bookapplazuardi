@@ -9,4 +9,4 @@ store untuk menyimpan/post,
 update untuk mengupdate data, dan 
 destroy untuk menghapus data pada database 
 
-semua function itu diletakkan didalam controller dan memanggilnya melalui routes, lalu Memberikan pesan Books not found jika id tidak ditemukan pada database
+semua function itu diletakkan didalam controller dan memanggilnya melalui routes, lalu Memberikan pesan Books not found dan Author not found jika data sesuai id yang dicari tidak ditemukan pada database
